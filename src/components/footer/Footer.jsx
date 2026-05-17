@@ -1,8 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeMoodContext } from '../../ulties/ThemeMood';
-
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
-
+import logoImage from "../../assets/images/7a027ff2950166d8e0db1629f5c2a4b0_fgraphic.png"
 export const Footer = () => {
 
     const { darkMood } = useContext(ThemeMoodContext);
@@ -26,7 +25,7 @@ export const Footer = () => {
 
                         <div className="w-[55px] h-[55px] rounded-full overflow-hidden border-2 border-slate-300">
                             <img
-                                src="../../../src/assets/images/7a027ff2950166d8e0db1629f5c2a4b0_fgraphic.png"
+                                src={logoImage}
                                 alt="logo"
                                 className="w-full h-full object-cover"
                             />

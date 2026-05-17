@@ -26,8 +26,8 @@ export const AllCourses = () => {
     return (
 
         <div className={`p-10 transition-all duration-300 ease-in-out  ${darkMood?"bg-slate-900":"bg-slate-50"}`}>
-            <h2 className={`flex justify-start px-12 py-4 text-3xl font-bold  ${darkMood ? "text-slate-200" :"text-slate-800"}`}> جميع الكورسات</h2>
-            <div className="content flex flex-wrap gap-10 p-4">
+            <h2 className={`flex justify-center md:justify-end md:px-20  py-6 text-3xl font-bold  ${darkMood ? "text-slate-200" :"text-slate-800"}`}> جميع الكورسات</h2>
+            <div className="content flex justify-center flex-wrap gap-10 md:p-4">
             {/* {courses?.map((course) => (
                 course && (
                     <Card
@@ -36,14 +36,14 @@ export const AllCourses = () => {
                     />
                 )
             ))} */}
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -81,14 +81,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -126,14 +126,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -171,14 +171,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                 <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -216,14 +216,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                 <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -261,14 +261,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                 <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -306,14 +306,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                 <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -351,14 +351,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -396,14 +396,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -441,14 +441,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -486,14 +486,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -531,14 +531,14 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
-                <div className={`card w-[200px] md:w-[250px] lg:w-[350px] overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-4
+                <div className={`card w-[350px] md:w-[350px]  overflow-visible rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out border-[3px] py-4 px-2 md:px-4
       ${darkMood ? "bg-prime_sky_950 border-slate-400" : "bg-prime_sky_100 border-prime_sky_600"}`}>
 
                     {/* image */}
                     <div className="image rounded-lg">
                         <img
                             className='w-full h-full rounded-lg object-contain hover:scale-105 transition-all duration-300'
-                            src="/public/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
+                            src="/images/MWQ2LcAhil6xzlRAVeASGKS8qHR8gEdIRUSsZXsv.png" alt=''
                         />
                     </div>
 
@@ -576,6 +576,8 @@ export const AllCourses = () => {
 
                     </div>
                 </div>
+               
+                
                 
 
             </div>

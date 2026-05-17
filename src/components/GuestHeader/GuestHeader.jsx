@@ -4,26 +4,25 @@ import { useContext } from 'react'
 import { ThemeMoodContext } from '../../ulties/ThemeMood';
 import { NavLink } from 'react-router-dom';
 import { IoMenu } from "react-icons/io5";
-
 import { IoPlanetOutline } from "react-icons/io5";
-
+import logoImage from "../../assets/images/7a027ff2950166d8e0db1629f5c2a4b0_fgraphic.png"
 export const GuestHeader = () => {
     const { darkMood, setDarkMood } = useContext(ThemeMoodContext);
     const [openMenu, setOpenMenu] = useState(false);
     return (
-        <div className={`header transition-all duration-300 ease-in-out fixed top-0 pl-10
+        <div className={`header transition-all duration-300 ease-in-out fixed top-0  md:pl-10
       w-full h-[110px]  z-50 ${darkMood ? "bg-slate-900 backdrop-blur-md border-b border-slate-700  shadow-[0_4px_20px_rgba(255,255,255,0.08)]" : "bg-white shadow-md border-b border-slate-200"}`}>
             <div className="container  h-full flex justify-between items-center flex-row ">
                 {/* قسم اللوجو */}
-                <div className="div flex items-center gap-8">
+                <div className="div flex items-center gap-4 md:gap-8">
                     <div className="logo_section  flex gap-6 items-center">
                         <div className="content flex flex-col gap-1 justify-center items-center">
-                            <div className="logo-image  transition-all duration-300 ease-in-out w-[60px] h-[60px] rounded-full overflow-hidden shadow-md border-2 border-white">
-                                <img className='w-full h-full object-cover ' src="../../../src/assets/images/7a027ff2950166d8e0db1629f5c2a4b0_fgraphic.png" alt="" />
+                            <div className="logo-image  transition-all duration-300 ease-in-out w-[40px] md:w-[60px]  h-[40px] md:h-[60px] rounded-full overflow-hidden shadow-md border-2 border-white">
+                                <img className='w-full h-full object-cover ' src={logoImage} alt="" />
 
                             </div>
                             <div className="logo-text leading-tight items-center text-center">
-                                <h2 className={`text-l font-bold ${darkMood ? "text-slate-200" : "text-slate-500"}`}>بسطتهالك</h2>
+                                <h2 className={`text-sm md:text-l font-bold ${darkMood ? "text-slate-200" : "text-slate-500"}`}>بسطتهالك</h2>
 
                             </div>
                         </div>

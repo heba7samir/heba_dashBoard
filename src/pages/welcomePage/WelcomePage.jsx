@@ -12,14 +12,14 @@ export const WelcomePage = () => {
                       <img className="max-w-full h-auto" src="/src/assets/images/New-Profile-hero.bd0ed24ff94f80d4b949b15350f35824.svg" alt="" />
                   </div>
                   <div className="text text-center ">
-                      <h1 className={`text-5xl font-bold font-alex pb-6 ${darkMood ? "text-white" : "text-black"}`}> منصة <span className={`text-6xl font-bold ${darkMood ? "text-prime_sky_500 hover:prime_sky_400" : "text-prime_sky_400 hover:prime_sky_300"}`}>بستطهالك</span></h1>
-                      <p className={`text-2xl font-bold ${darkMood ? "text-white" : "text-black"}`}>منصة متكامله بكل ما يحتاجه الطالب ليتفوق</p>
+                      <h1 className={`text-3xl md:text-5xl  font-bold font-alex pb-6 ${darkMood ? "text-white" : "text-black"}`}> منصة <span className={`text-4xl md:text-6xl font-bold ${darkMood ? "text-prime_sky_500 hover:prime_sky_400" : "text-prime_sky_400 hover:prime_sky_300"}`}>بستطهالك</span></h1>
+                      <p className={`text-xl md:text-2xl font-bold ${darkMood ? "text-white" : "text-black"}`}>منصة متكامله بكل ما يحتاجه الطالب ليتفوق</p>
                   </div>
               </div>
               <div className={`part_two flex flex-1 flex-col  items-center justify-between px-10 py-20`}>
                   <div className="text text-center ">
-                      <h1 className={`text-5xl font-bold font-alex pb-6 ${darkMood ? "text-white" : "text-black"}`}>كورساتنا <span className={`text-6xl font-bold ${darkMood ? "text-prime_sky_500 hover:prime_sky_400" : "text-prime_sky_400 hover:prime_sky_300"}`}> المقترحة</span></h1>
-                      <p className={`text-2xl font-bold ${darkMood ? "text-white" : "text-black"}`}>ريحنا دماغك وجمعنا لك كورسات على مزاجك، مختارة بحب وعناية كأننا بنعمل شوبينج لأحسن شوية كورسات تساعدك وتنميك</p>
+                      <h1 className={`text-3xl md:text-5xl  font-bold font-alex pb-6 ${darkMood ? "text-white" : "text-black"}`}>كورساتنا <span className={`text-4xl md:text-6xl font-bold ${darkMood ? "text-prime_sky_500 hover:prime_sky_400" : "text-prime_sky_400 hover:prime_sky_300"}`}> المقترحة</span></h1>
+                      <p className={`text-xl md:text-2xl font-bold ${darkMood ? "text-white" : "text-black"}`}>ريحنا دماغك وجمعنا لك كورسات على مزاجك، مختارة بحب وعناية كأننا بنعمل شوبينج لأحسن شوية كورسات تساعدك وتنميك</p>
                   </div>
                   <div className="course flex flex-col md:flex-row flex-wrap justify-evenly gap-6 py-20 ">
                       <CardStatic />
