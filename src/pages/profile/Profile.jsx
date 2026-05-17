@@ -24,9 +24,8 @@ export const Profile = (e) => {
       <div className="text">
         <h2 className={`text-2xl font-bold tracking-tight py-10 px-5 transition-all duration-300 ease-in-out ${darkMood ? "text-slate-50" : "text-prime_sky_500 "}`}>Welcome Back Heba</h2>
       </div>
-      <div className="container flex flex-row  gap-2">
-        <div
-          className={`account_section_two flex-1 rounded-3xl p-8 border transition-all duration-300
+      <div className="container flex flex-col-reverse md:flex-row  gap-2">
+        <div className={`account_section_two flex-1 rounded-3xl p-8 border transition-all duration-300
           ${darkMood ? "bg-prime_sky_950 border-slate-700" : "bg-white border-slate-200 shadow-md"
             }`}  >
           <div className="div flex flex-col">
@@ -49,13 +48,13 @@ export const Profile = (e) => {
               <>
                 {/* الفورم */}
                 <div className="form flex-1">
-                  <form className="flex flex-col gap-6">
+                  <form className="flex flex-col  gap-6">
 
                     <input className="text-right px-4 py-3 rounded-2xl border" value="هبه سمير" onChange={(e) => setName(e.target.value)} />
                     <input className="text-right px-4 py-3 rounded-2xl border" value="01554665623" onChange={(e) => setName(e.target.value)} />
                     <input className="text-right px-4 py-3 rounded-2xl border" value="ثانوية عامة" onChange={(e) => setName(e.target.value)} />
 
-                    <button className={` text-l font-semibold py-3 rounded-2xl  w-[30%] ${darkMood ? "bg-prime_sky_700 hover:bg-prime_sky_400 text-slate-200" : "bg-prime_sky_300 text-slate-900"}`}>
+                    <button className={` text-l font-semibold py-3  rounded-2xl  md:w-[30%] ${darkMood ? "bg-prime_sky_700 hover:bg-prime_sky_400 text-slate-200" : "bg-prime_sky_300 text-slate-900"}`}>
                       حفظ التعديلات
                     </button>
 
@@ -132,7 +131,7 @@ export const Profile = (e) => {
 
                   {/* حفظ */}
                   <button
-                    className={` text-l font-semibold py-3 rounded-2xl  w-[30%] ${darkMood ? "bg-prime_sky_700 hover:bg-prime_sky_400 text-slate-200" : "bg-prime_sky_300 text-slate-900"}`}
+                    className={` text-l font-semibold py-3 rounded-2xl  md:w-[30%] ${darkMood ? "bg-prime_sky_700 hover:bg-prime_sky_400 text-slate-200" : "bg-prime_sky_300 text-slate-900"}`}
                   >
                     حفظ التعديلات
                   </button>
@@ -140,7 +139,7 @@ export const Profile = (e) => {
                 
                 
 
-                  <button onClick={handleLogout} className={`text-l text-center font-bold  px-4 py-3 rounded-2xl border w-[30%] ${darkMood ? "bg-red-700 hover:bg-red-800 text-slate-200 " : "bg-red-500 hover:bg-red-600 text-slate-100 "}`}>
+                  <button onClick={handleLogout} className={`text-l text-center font-bold  px-4 py-3 rounded-2xl border md:w-[30%] ${darkMood ? "bg-red-700 hover:bg-red-800 text-slate-200 " : "bg-red-500 hover:bg-red-600 text-slate-100 "}`}>
                     تسجيل الخروج
                   </button>
 
@@ -153,7 +152,7 @@ export const Profile = (e) => {
 
 
         </div>
-        <div className={`account_section_right flex flex-col items-center  overflow-visible rounded-3xl  shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out  border-[3px] border-slate-200 py-4 px-4 ${darkMood ? "bg-prime_sky_950 border-slate-700" : "bg-slate-100 border-prime_sky_600"} `}>
+        <div className={`account_section_right flex flex-col items-center  overflow-visible rounded-3xl  shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out  border-[3px] border-slate-200 py-4 px-2 md:px-4 ${darkMood ? "bg-prime_sky_950 border-slate-700" : "bg-slate-100 border-prime_sky_600"} `}>
           <div className={`image flex justify-center  w-[100px] h-[100px]  items-center border rounded-lg ${darkMood ? "bg-slate-900" : "bg-slate-100"}`}>
             <img className='w-full h-full object-cover rounded-lg ' src="/src/assets/images/WhatsApp Image 2026-05-03 at 12.00.12 AM.jpeg" alt="" />
           </div>

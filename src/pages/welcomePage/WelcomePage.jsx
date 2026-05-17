@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ThemeMoodContext } from '../../ulties/ThemeMood';
 import { CardStatic } from '../../components/card/CardStatic';
-
+import mainImage from "../../assets/images/New-Profile-hero.bd0ed24ff94f80d4b949b15350f35824.svg"
 export const WelcomePage = () => {
     const { darkMood, setDarkMood } = useContext(ThemeMoodContext);
   return (
@@ -9,7 +9,7 @@ export const WelcomePage = () => {
           <div className="container mx-auto px-6">
               <div className={`part_one flex flex-1 flex-col lg:flex-row items-center justify-between gap-10 py-10`}>
                   <div className="image image w-full lg:w-1/2 flex justify-center">
-                      <img className="max-w-full h-auto" src="/src/assets/images/New-Profile-hero.bd0ed24ff94f80d4b949b15350f35824.svg" alt="" />
+                      <img className="max-w-full h-auto" src={mainImage} />
                   </div>
                   <div className="text text-center ">
                       <h1 className={`text-3xl md:text-5xl  font-bold font-alex pb-6 ${darkMood ? "text-white" : "text-black"}`}> منصة <span className={`text-4xl md:text-6xl font-bold ${darkMood ? "text-prime_sky_500 hover:prime_sky_400" : "text-prime_sky_400 hover:prime_sky_300"}`}>بستطهالك</span></h1>

@@ -63,9 +63,6 @@ export const Header = () => {
 
                 </div>
                 {/* قسم البروفايل */}
-                {/* <NavLink to={"/profile"} className={`profile w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center  cursor-pointer ${darkMood ? "bg-slate-700 text-white fill-white" : "bg-gray-200 text-sky-500 fill-slate-600"}}`}>
-                    <RiAccountCircle2Fill className='text-3xl' />
-                </NavLink> */}
                 <div className="relative z-[999]" ref={menuRef}>
                     {/* ICON */}
                     <div
@@ -86,9 +83,9 @@ export const Header = () => {
                             <NavLink
                                 to="/profile"
                                 onClick={() => setOpen(false)}
-                                className={`flex  items-center gap-4 pr-6  py-3 text-sm  transition ${darkMood ? "hover:bg-slate-500" : "hover:bg-slate-50"}`}
+                                className={`flex justify-end w-full items-center gap-8 pr-6  py-3 text-sm  transition ${darkMood ? "hover:bg-slate-500" : "hover:bg-slate-50"}`}
                             >
-                                <FiUser />
+                                <FiUser className={` text-xl font-bold ${darkMood?"text-slate-100":"text-slate-800"}`} />
                                 حسابي
 
                             </NavLink>
@@ -96,9 +93,9 @@ export const Header = () => {
                             {/* Logout */}
                             <button
                                 onClick={logout}
-                                className={` gap-4 pr-6 py-3 text-sm   transition items-end flex  justify-end ${darkMood ? "hover:bg-slate-500" : "hover:bg-slate-50"}`}
+                                className={`flex justify-end w-full items-center gap-8   pr-6 py-3 text-sm   transition  ${darkMood ? "hover:bg-slate-500" : "hover:bg-slate-50"}`}
                             >
-                                <FiLogOut />
+                                <FiLogOut className={` text-xl font-bold ${darkMood ? "text-red-600" :"text-red-500"}`} />
                                 تسجيل خروج
 
 
