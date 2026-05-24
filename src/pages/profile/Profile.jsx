@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { ThemeMoodContext } from '../../ulties/ThemeMood';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { MdKeyboardArrowLeft } from "react-icons/md";
+import profilePic from "../../assets/images/pngtree-elementary-school-student-back-to-school-concept-png-image_10121637.png"
 export const Profile = (e) => {
   const { darkMood, setDarkMood } = useContext(ThemeMoodContext);
   const navigate = useNavigate();
@@ -66,7 +67,7 @@ export const Profile = (e) => {
 
                   <div className="w-[220px] h-[220px] rounded-3xl overflow-hidden border-4 border-slate-200">
                     <img
-                      src="/src/assets/images/WhatsApp Image 2026-05-03 at 12.00.12 AM.jpeg"
+                      src={profilePic}
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -154,7 +155,7 @@ export const Profile = (e) => {
         </div>
         <div className={`account_section_right flex flex-col items-center  overflow-visible rounded-3xl  shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out  border-[3px] border-slate-200 py-4 px-2 md:px-4 ${darkMood ? "bg-prime_sky_950 border-slate-700" : "bg-slate-100 border-prime_sky_600"} `}>
           <div className={`image flex justify-center  w-[100px] h-[100px]  items-center border rounded-lg ${darkMood ? "bg-slate-900" : "bg-slate-100"}`}>
-            <img className='w-full h-full object-cover rounded-lg ' src="/src/assets/images/WhatsApp Image 2026-05-03 at 12.00.12 AM.jpeg" alt="" />
+            <img className='w-full h-full object-cover rounded-lg ' src={profilePic} alt="" />
           </div>
           <div className="data flex flex-col gap1">
             <h2 className={`text-[14px] font-bold ${darkMood ? "text-slate-200" : "text-slate-800"}`}>Heba Samir</h2>

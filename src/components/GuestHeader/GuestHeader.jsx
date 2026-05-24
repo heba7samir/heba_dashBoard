@@ -69,7 +69,7 @@ export const GuestHeader = () => {
                     </button>
                     {/* Dropdown */}
                     <div
-                        className={`absolute flex flex-col gap-4 items-start top-[70px] right-[-60px] w-screen py-6 px-6  rounded-2xl shadow-l border transition-all duration-300 
+                        className={`absolute flex flex-col gap-4 items-start top-[70px] right-0 w-screen py-6 px-6  rounded-2xl shadow-l border transition-all duration-300 
                         ${openMenu ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"}
                         ${darkMood
                             ? "bg-prime_sky_700 border-prime_sky_600"
